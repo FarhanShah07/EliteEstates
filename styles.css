@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.15em;
+}
+a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+}
+.header{
+    height: 95vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./BackGroundImg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    color: white;
+}
+.heading{
+    float: left;
+}
+ul,.List-item{
+    float: right;
+}
+.navbar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul, li{
+    list-style: none;
+}
+.header .navbar .List-item{
+    display: inline-block;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.navbar a:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 0.2REM;
+}
+.heading{
+    padding-top: 0.4rem;
+}
+header,div .heading2{
+    color: white;
+    word-spacing: 0.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.container2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.Para{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0.7rem;
+}
+.button1{
+    background-color: rgba(62, 6, 192, 0.781);
+    height: 3rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    color: white;
+    margin-left: 10rem;
+    margin-top: 2rem;
+  
+}
+.button2{
+    height: 3rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+    color: black;
+}
+.button1:hover{
+    background-color: brown;
+}
+.button2:hover{
+    background-color: aqua;
+}
+.Input{
+    margin-left: 9.1rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.H1{
+    background-color: rgb(188, 188, 188);
+    height: 10rem;
+}
+.Div1 .H1{
+  text-align: center;
+  text-decoration: underline;
+  word-spacing: 0.15rem;
+  font-size: xx-large;
+}
+.Div2{
+    max-width: 1200px;
+    width: 90;
+    margin: 0 auto;
+}
+.Para1{
+    margin-top: 4rem;
+    word-spacing: 0.15;
+    font-size: x-large;
+    background-color: rgb(234, 233, 233);
+    letter-spacing: 0.15rem;
+
+}
+
+.Para2{
+    margin-top: 4rem;
+    word-spacing: 0.15;
+    font-size: x-large;
+    background-color: rgb(234, 233, 233);
+    letter-spacing: 0.15rem;
+}
+.Para3{
+    word-spacing: 0.15;
+    font-size: x-large;
+    margin-left: 2rem;
+}
+.Hamza{
+    margin-top: 2rem;
+}
+.span{
+    font-size: medium;
+    font-weight: 400;
+}
+.span2{
+    margin-left: 0.30rem;
+}
+.Para4{
+    word-spacing: 0.15;
+    font-size: large;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.span3{
+    color: red;
+}
+.span4{
+    color: red;
+}
+.Para5{
+    word-spacing: 0.15;
+    font-weight: 500;
+    font-size: large;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.Unique{
+    margin-top: 1rem;
+}
+.DIV{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+.PARA4{
+    word-spacing: 0.15;
+    font-size: x-large;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
